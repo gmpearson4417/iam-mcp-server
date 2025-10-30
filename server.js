@@ -4,8 +4,8 @@ const app = express();
 app.use(express.json());
 
 // Your IAM API configuration
-const IAM_BASE_URL = process.env.IAM_BASE_URL || 'https://your-iam-system.com/api';
-const IAM_TOKEN = process.env.IAM_TOKEN || 'your-token-here';
+const IAM_BASE_URL = process.env.IAM_BASE_URL || 'https://gpearson.dev.rapididentity.com/api/rest';
+const IAM_TOKEN = process.env.IAM_TOKEN || '$J2ypsB5KRh+oFHagUEqLPQ==.CNyVRgXKjWHSQRRJfZk6tPPs4JQIfgdHS4VA78XdYhE=$';
 
 // MCP Tools Definition
 const tools = [
